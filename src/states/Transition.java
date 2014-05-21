@@ -2,15 +2,16 @@ package states;
 
 public class Transition {
 
-	public String[] transition;
+	public String[] right;
 	public State next;
 	public int pointer;
 	public int reduction;
 	
 	public Transition(String transition, State next, int pointer){
-		this.transition = transition.split(" ");
+		String params[] = transition.split("->");
+		this.right = params[1].split(" ");
 		this.next = null;
-		if(this.transition.length > pointer){
+		if(this.right.length > pointer){
 			this.next = next;
 			this.reduction = -1;
 		}

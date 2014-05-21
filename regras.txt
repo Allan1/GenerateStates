@@ -1,6 +1,6 @@
 r0: #SS -> #S $
 r1: #S -> #L1
-r2: #S -> #D #S //Declaracoes de variaveis
+r2: #S -> #D #S
 r3: #D -> #T #DAUX .
 r4: #T -> INTEIRO
 r5: #T -> REAL 

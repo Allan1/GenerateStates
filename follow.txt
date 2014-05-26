@@ -1,0 +1,31 @@
+#S,$
+#L1,$
+#L2,$
+#L3,$
+#D,$| INTEIRO | REAL | BINARIO | [
+#T,INTEIRO | REAL| BINARIO
+#DAUX,. | ; | )
+#VAR,; | } | ] | <<| . | ) | + | - | * | / | VARIAVEL | CONSTANTE | FUNCAO
+#DAUX2,; )
+#DF,[ | INTEIRO | BINARIO | REAL
+#DFC,INTEIRO REAL BINARIO [
+#FUN,(
+#DS,} | RETORNAR | ]
+#CHAFUN,. | + | - | * | / | VARIAVEL | CONSTANTE | ( | FUNCAO | = | <> | E | OU | )
+#PARAMS,)
+#NUM,} | ] | . | + | - | * | / | VARIAVEL | CONSTANTE | FUNCAO
+#C,} | ] RETORNAR
+#AT,.
+#OA,. | ) | = | <> | < | <= | > | >= | E | OU
+#OL,= | <> | E | OU | )
+#OPO,. | + | - | * | / | ) | ( | VARIAVEL | CONSTANTE | FUNCAO
+#OPE,VARIAVEL | CONSTANTE | FUNCAO
+#OPOL,) | = | <> | E | OU | VARIAVEL | NAO | SIM | FUNCAO
+#BOOL,) | = | <> | E | OU | VARIAVEL | NAO | SIM | FUNCAO
+#OPL,VARIAVEL | NAO | SIM | FUNCAO | CONSTANTE | ( 
+#OPL1,( | VARIAVEL | CONSTANTE | FUNCAO
+#IF,SE | ENQUANTO | LER | & | IMPRIMIR
+#IF2,SE | ENQUANTO | LER | & | IMPRIMIR
+#WH,ENQUANTO | SE | LER | IMPRIMIR | &
+#EC,}
+#LER,ENQUANTO | SE | LER | IMPRIMIR | & | <>

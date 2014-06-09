@@ -62,16 +62,23 @@ public class Principal {
 									//System.out.println(frase1[tamanhofrase-1]);
 								}else{
 									String aux;
+									if(estado == 54){
+										estado = estado;
+									}
 									if(frase1[i-1].startsWith("#")){
 										aux = Mfollow.get(frase1[i-1]);
 										aux = aux.trim();
-										frase = aux.split("|");
+										frase = aux.split(";");
 										for(int j = 0;j<frase.length;j++){
-											Table.get(estado).row.put(frase[j], frase1[tamanhofrase-1]); //reducao
+											if(!frase[j].equals("")){
+												frase[j] = frase[j].trim();
+												Table.get(estado).row.put(frase[j], frase1[tamanhofrase-1]); //reducao
+											}
 										}
 									}else{
 										String linha;
 										linha = frase1[i-1];
+										linha = linha.trim();
 										Table.get(estado).row.put(linha, frase1[tamanhofrase-1]); //reducao
 									}
 
